@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <link href="css/bootstrap.css" rel="stylesheet" style="text/css">
+        <link href="css/styles.css" rel="stylesheet" style="text/css">
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          
+          <script src="js/script.js"></script>
+          
+          <title>PIG DICE GAME</title>
+          <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+          <header><H1>PIGDICE</H1></header>
+     
+  </head>
+
+  <body>
+        <div class="container">
+                <div class="well">
+                       <h1>Welcome to the pig dice game. This is a very interesting and interactive game.</h1>
+                           <p>Here are the game rules:
+                             <ul>
+                               <li>To start, roll a die. The goal is to accumulate as many point as possible, adding up the numbers rolled on the die.</li>
+                               <li>The first player to score more than 100 points wins.</li>
+                               <li>If the number is 2, 3, 4, 5 or 6, you score. You get to  keep your points and can roll again.</li>
+                               <li>As long as you don't roll number 1, you're fine. If you do, you forfeit any points accumulated during this turn.</li>
+                               <li>If a player chooses to 'hold', their turn total is added to the score and it  becomes the next player's turn to play.</li>
+                             </ul>
+                           </p>
+                       <h2> All the best. Now, let's start playing</h2>
+                </div>
+             </div>
+        
+            <div class= "container">
+              <div class = "jumotron">
+               <div class = "col-md-5">
+                  <div class = "panel panel-default">
+                    <div class ="panel-body1">
+                        <p id="name-1">PLAYER 1</p>
+                           <div class = "scores">
+                              <h2> <div id ="dieroll-1"> DIE ROLL:</div></h2>
+                              <h2> <div id="cumulative-1">CUMMULATIVE SCORE:</div></h2>
+                              <h2><div id ="finalScore-1">FINAL SCORE:</div></h2>                       
+                              <br><button id="spin-1" class="butn" type="submit">Roll</button><br>
+                              <br><button id="hold-1" class="butn" type="reset">Hold</button><br>
+                           </div>
+                    </div>
+                </div>
+             </div>
+        
+             <div class = "col-md-5">
+                <div class = "panel panel-default">
+                    <div class ="panel-body2">
+                        <p id="name-2">PLAYER 2</p>
+                           <div class = "scores">
+                              <h2><div id ="dieroll-2">DIE ROLL:</div></h2>
+                              <h2><div id="cumulative-2">CUMMULATIVE SCORE:</div></h2>
+                              <h2><div id="finalScore-2">FINAL SCORE:</div></h2>
+                              <br><button id="spin-2" class="butn" type="submit">Roll</button><br>
+                              <br><button id="hold-2" class="butn" type="reset">Hold</button><br>
+                           </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+             </div>
+
+    
+
+
+  </body>
+</html>
