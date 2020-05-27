@@ -34,7 +34,9 @@ the two players choose to either roll the dice and get some points or hold the d
 <p>In case of any questions, ideas or contributions, feel free to contact me on either via telephone or email.</p>
 <p>My telephone contacts is 0716847556 and my email is elvisbkt@gmail.com</p>
 
+https://elvisbkt.github.io/new-pigdice/
 
 ### Public
 Copyright (c) 2019
+
 
